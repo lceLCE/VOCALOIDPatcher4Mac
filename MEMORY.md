@@ -1,0 +1,12 @@
+# Maintainer memory
+
+- Public source prepared 2026-11-20 from the stable macOS trial, based on IzumiiKonata/VOCALOIDPatcher commit e3208fd798d432ae1bf1141bf8f741fbd6fac30f. GPL-3.0.
+- Verified target: VOCALOID7 Editor 7.0.0, Apple Silicon, macOS 15+. Private integration is pinned to executable SHA-256 eb9440ffedc2bcd00f897dab57007767d59a64032e7489c0cf1a5546c1d0ba92.
+- With DYLD injection image zero can be the patcher. Locate MH_EXECUTE when computing the main executable slide.
+- Native NSDocument save actions via the responder chain did not reliably save the custom editor. Timed save uses NSDocument.saveToURL with completion and reentry protection, plus sheet/modal/staged-operation guards. Native writeToURL creates VPRX snapshots.
+- NSImage can decode an MP4 poster; route UTTypeMovie through AVPlayer for actual video playback. Spectrum combines stereo FFT powers so opposite-phase channels do not cancel.
+- Translate NSMenu.title as well as NSMenuItem.title. Lock translation map publication and background lookup.
+- Inspector-right repeatedly failed real editor layout despite passing AppKit mocks. Removed from this stable source, including its layout hooks. Do not reintroduce without real UI evidence.
+- Standalone arm64 only. AU/VST integration, several Windows-specific performance optimizations and multi-interval harmony UI remain incomplete. Foreign-format V7 synthesis controls have not been proven lossless.
+
+- Publication checkout: strict native build, complete native/converter suite (27 exports / 24 readable roundtrips), shell syntax checks, and exact translation-map regeneration passed on 2026-11-20. Compatibility constants were centralized without changing their verified values. The shell launcher now delegates to the compiled launcher. No new editor version has been declared supported.

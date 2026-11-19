@@ -1,0 +1,28 @@
+# Native build products
+*.dylib
+*.o
+*.app/
+.check-build/
+# Local converter environment and Python cache
+.venv/
+__pycache__/
+*.pyc
+# Runtime settings and user media/project data
+settings.plist
+drawing-settings.plist
+artwork-settings.json
+native-options.json
+*.vpr
+*.vprx
+*.wav
+*.mp4
+*.gif
+.DS_Store
+# Never publish local secrets
+.env
+.env.*
+*.key
+*.pem
+# Local analysis and generated test report
+/adaptation-work/
+/conversion/validation.json

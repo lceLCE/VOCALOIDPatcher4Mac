@@ -1,0 +1,56 @@
+{
+  "upstream_commit": "e3208fd798d432ae1bf1141bf8f741fbd6fac30f",
+  "native_key_count": 589,
+  "native_nib_count": 48,
+  "native_nib_localization_pairs": 229,
+  "port_ui_catalog_count": 123,
+  "languages": {
+    "en": {
+      "string_map_count": 3249,
+      "native_exact_upstream_matches": 488,
+      "native_keys_covered": 589,
+      "native_keys_missing": [],
+      "native_nib_pairs_covered": 229,
+      "port_ui_strings_covered": 123,
+      "upstream_placeholder_mismatches_skipped": []
+    },
+    "zh-Hans": {
+      "string_map_count": 2559,
+      "native_exact_upstream_matches": 488,
+      "native_keys_covered": 589,
+      "native_keys_missing": [],
+      "native_nib_pairs_covered": 229,
+      "port_ui_strings_covered": 123,
+      "upstream_placeholder_mismatches_skipped": []
+    },
+    "zh-Hant": {
+      "string_map_count": 3247,
+      "native_exact_upstream_matches": 488,
+      "native_keys_covered": 589,
+      "native_keys_missing": [],
+      "native_nib_pairs_covered": 229,
+      "port_ui_strings_covered": 123,
+      "upstream_placeholder_mismatches_skipped": []
+    },
+    "ja": {
+      "string_map_count": 3188,
+      "native_exact_upstream_matches": 488,
+      "native_keys_covered": 589,
+      "native_keys_missing": [],
+      "native_nib_pairs_covered": 229,
+      "port_ui_strings_covered": 123,
+      "upstream_placeholder_mismatches_skipped": []
+    },
+    "es": {
+      "string_map_count": 3209,
+      "native_exact_upstream_matches": 488,
+      "native_keys_covered": 589,
+      "native_keys_missing": [],
+      "native_nib_pairs_covered": 229,
+      "port_ui_strings_covered": 123,
+      "upstream_placeholder_mismatches_skipped": []
+    }
+  },
+  "native_japanese_nib_strings_unmapped": [],
+  "native_japanese_aliases": 728
+}

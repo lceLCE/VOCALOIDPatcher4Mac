@@ -1,0 +1,863 @@
+{
+  "确定": {
+    "en": "_OK",
+    "zh-Hans": "确定",
+    "zh-Hant": "確定",
+    "ja": "OK(_O)",
+    "es": "_Aceptar"
+  },
+  "取消": {
+    "en": "Cancel",
+    "zh-Hans": "取消",
+    "zh-Hant": "取消",
+    "ja": "キャンセル",
+    "es": "Cancelar"
+  },
+  "文件": {
+    "en": "File",
+    "zh-Hans": "文件",
+    "zh-Hant": "文件",
+    "ja": "ファイル",
+    "es": "Archivo"
+  },
+  "编辑": {
+    "en": "Edit",
+    "zh-Hans": "编辑",
+    "zh-Hant": "編輯",
+    "ja": "編集",
+    "es": "Edición"
+  },
+  "任务": {
+    "en": "Job",
+    "zh-Hans": "任务",
+    "zh-Hant": "任務",
+    "ja": "ジョブ",
+    "es": "Trabajo"
+  },
+  "播放控制": {
+    "en": "Transport",
+    "zh-Hans": "播放控制",
+    "zh-Hant": "播放控制",
+    "ja": "トランスポート",
+    "es": "Transporte"
+  },
+  "视图": {
+    "en": "View",
+    "zh-Hans": "视图",
+    "zh-Hant": "視圖",
+    "ja": "表示",
+    "es": "Ver"
+  },
+  "窗口": {
+    "en": "Window",
+    "zh-Hans": "窗口",
+    "zh-Hant": "窗口",
+    "ja": "ウインドウ",
+    "es": "Ventana"
+  },
+  "帮助": {
+    "en": "Help",
+    "zh-Hans": "帮助",
+    "zh-Hant": "幫助",
+    "ja": "ヘルプ",
+    "es": "Ayuda"
+  },
+  "歌词替换": {
+    "en": "Replace Lyrics",
+    "zh-Hans": "歌词替换",
+    "zh-Hant": "歌詞替換",
+    "ja": "歌詞の置換",
+    "es": "Reemplazar letras"
+  },
+  "量化时值": {
+    "en": "Quantize Length",
+    "zh-Hans": "量化时值",
+    "zh-Hant": "量化時值",
+    "ja": "長さのクオンタイズ",
+    "es": "Cuantizar duración"
+  },
+  "摇摆": {
+    "en": "Swing",
+    "zh-Hans": "摇摆",
+    "zh-Hant": "搖擺",
+    "ja": "スイング",
+    "es": "Swing"
+  },
+  "生成和声": {
+    "en": "Generate Harmony",
+    "zh-Hans": "生成和声",
+    "zh-Hant": "生成和聲",
+    "ja": "ハーモニーの生成",
+    "es": "Generar armonía"
+  },
+  "和声": {
+    "en": "Harmony",
+    "zh-Hans": "和声",
+    "zh-Hant": "和聲",
+    "ja": "ハーモニー",
+    "es": "Armonía"
+  },
+  "简体中文": {
+    "zh-Hans": "简体中文",
+    "en": "简体中文",
+    "ja": "简体中文",
+    "es": "简体中文",
+    "zh-Hant": "简体中文"
+  },
+  "显示音符音高": {
+    "en": "Show Note Pitch",
+    "zh-Hans": "显示音符音高",
+    "zh-Hant": "顯示音符音高",
+    "ja": "ノートの音高を表示",
+    "es": "Mostrar tono de las notas"
+  },
+  "属性面板显示在右侧": {
+    "en": "Show Inspector on the Right",
+    "zh-Hans": "属性面板显示在右侧",
+    "zh-Hant": "屬性面板顯示在右側",
+    "ja": "インスペクターを右側に表示",
+    "es": "Mostrar el inspector a la derecha"
+  },
+  "请在钢琴窗中选中需要处理的音符。": {
+    "zh-Hans": "请在钢琴窗中选中需要处理的音符。",
+    "en": "Select the notes to process in the piano roll.",
+    "ja": "ピアノロールで処理するノートを選択してください。",
+    "es": "Seleccione las notas que desea procesar en el piano roll.",
+    "zh-Hant": "請在鋼琴窗中選中需要處理的音符。"
+  },
+  "编辑器正在处理另一个操作，请完成后重试。": {
+    "zh-Hans": "编辑器正在处理另一个操作，请完成后重试。",
+    "en": "The editor is processing another operation. Finish it and try again.",
+    "ja": "別の操作を処理中です。完了後にもう一度お試しください。",
+    "es": "El editor está procesando otra operación. Espere a que termine y vuelva a intentarlo.",
+    "zh-Hant": "編輯器正在處理另一個操作，請完成後重試。"
+  },
+  "失败，已撤销本次修改。": {
+    "zh-Hans": "失败，已撤销本次修改。",
+    "en": " failed. The changes have been rolled back.",
+    "ja": "に失敗しました。今回の変更を取り消しました。",
+    "es": " falló. Se han revertido los cambios.",
+    "zh-Hant": "失敗，已撤銷本次修改。"
+  },
+  "无法保存补丁设置，请检查目录写入权限。": {
+    "zh-Hans": "无法保存补丁设置，请检查目录写入权限。",
+    "en": "Could not save patch settings. Check the directory's write permissions.",
+    "ja": "パッチ設定を保存できません。フォルダの書き込み権限を確認してください。",
+    "es": "No se pudieron guardar los ajustes del parche. Compruebe los permisos de escritura.",
+    "zh-Hant": "無法保存補丁設置，請檢查目錄寫入權限。"
+  },
+  "将选中音符的歌词全部替换为": {
+    "zh-Hans": "将选中音符的歌词全部替换为",
+    "en": "Replace all selected note lyrics with",
+    "ja": "選択したすべてのノートの歌詞を置換",
+    "es": "Sustituir la letra de todas las notas seleccionadas por",
+    "zh-Hant": "將選中音符的歌詞全部替換為"
+  },
+  "量化时值，输入网格 tick（四分=480）、强度百分比": {
+    "zh-Hans": "量化时值，输入网格 tick（四分=480）、强度百分比",
+    "en": "Quantize durations: grid ticks (quarter note = 480), strength percent",
+    "ja": "長さのクオンタイズ：グリッド Tick（四分音符=480）、強さ（%）",
+    "es": "Cuantizar duraciones: ticks de rejilla (negra = 480), intensidad en porcentaje",
+    "zh-Hant": "量化時值，輸入網格 tick（四分=480）、強度百分比"
+  },
+  "网格请输入 1 到 1920 的整数，强度请输入 0 到 100。": {
+    "zh-Hans": "网格请输入 1 到 1920 的整数，强度请输入 0 到 100。",
+    "en": "Enter an integer grid value from 1 to 1920 and strength from 0 to 100.",
+    "ja": "グリッドは1～1920の整数、強さは0～100で入力してください。",
+    "es": "Introduzca una rejilla entera de 1 a 1920 y una intensidad de 0 a 100.",
+    "zh-Hant": "網格請輸入 1 到 1920 的整數，強度請輸入 0 到 100。"
+  },
+  "和声，根音 MIDI、级数偏移（2 至 7 或 -2 至 -7）、新轨道=1/空闲轨道=0": {
+    "zh-Hans": "和声，根音 MIDI、级数偏移（2 至 7 或 -2 至 -7）、新轨道=1/空闲轨道=0",
+    "en": "Harmony: MIDI root, scale-degree offset (2 to 7 or -2 to -7), new track = 1 / unused track = 0",
+    "ja": "ハーモニー：根音 MIDI、音階の段階差（2～7 または -2～-7）、新規トラック=1／空きトラック=0",
+    "es": "Armonía: raíz MIDI, desplazamiento de grados (2 a 7 o -2 a -7), pista nueva = 1 / libre = 0",
+    "zh-Hant": "和聲，根音 MIDI、級數偏移（2 至 7 或 -2 至 -7）、新軌道=1/空閒軌道=0"
+  },
+  "请输入有效参数。级数偏移可用 ±2 至 ±7。": {
+    "zh-Hans": "请输入有效参数。级数偏移可用 ±2 至 ±7。",
+    "en": "Enter valid parameters. The scale-degree offset must be ±2 through ±7.",
+    "ja": "有効な値を入力してください。音階の段階差は±2～±7です。",
+    "es": "Introduzca parámetros válidos. El desplazamiento de grados debe ser de ±2 a ±7.",
+    "zh-Hant": "請輸入有效參數。級數偏移可用 ±2 至 ±7。"
+  },
+  "请先打开工程。": {
+    "zh-Hans": "请先打开工程。",
+    "en": "Open a project first.",
+    "ja": "先にプロジェクトを開いてください。",
+    "es": "Abra primero un proyecto.",
+    "zh-Hant": "請先打開工程。"
+  },
+  "保存副本失败。": {
+    "zh-Hans": "保存副本失败。",
+    "en": "Could not save the project copy.",
+    "ja": "プロジェクトのコピーを保存できません。",
+    "es": "No se pudo guardar la copia del proyecto.",
+    "zh-Hant": "保存副本失敗。"
+  },
+  "自动保存间隔（分钟）": {
+    "zh-Hans": "自动保存间隔（分钟）",
+    "en": "Autosave interval (minutes)",
+    "ja": "自動保存の間隔（分）",
+    "es": "Intervalo de guardado automático (minutos)",
+    "zh-Hant": "自動保存間隔（分鐘）"
+  },
+  "请输入 1 到 120 分钟。": {
+    "zh-Hans": "请输入 1 到 120 分钟。",
+    "en": "Enter a value from 1 to 120 minutes.",
+    "ja": "1～120分の値を入力してください。",
+    "es": "Introduzca un valor de 1 a 120 minutos.",
+    "zh-Hant": "請輸入 1 到 120 分鐘。"
+  },
+  "界面语言": {
+    "zh-Hans": "界面语言",
+    "en": "Interface language",
+    "ja": "表示言語",
+    "es": "Idioma de la interfaz",
+    "zh-Hant": "界面語言"
+  },
+  "替换选中音符歌词…": {
+    "zh-Hans": "替换选中音符歌词…",
+    "en": "Replace selected note lyrics…",
+    "ja": "選択ノートの歌詞を置換…",
+    "es": "Sustituir letra de notas seleccionadas…",
+    "zh-Hant": "替換選中音符歌詞…"
+  },
+  "量化选中音符时值…": {
+    "zh-Hans": "量化选中音符时值…",
+    "en": "Quantize selected note durations…",
+    "ja": "選択ノートの長さをクオンタイズ…",
+    "es": "Cuantizar duración de notas seleccionadas…",
+    "zh-Hant": "量化選中音符時值…"
+  },
+  "生成和声…": {
+    "zh-Hans": "生成和声…",
+    "en": "Generate harmony…",
+    "ja": "ハーモニーを生成…",
+    "es": "Generar armonía…",
+    "zh-Hant": "生成和聲…"
+  },
+  "八分音符 Swing": {
+    "zh-Hans": "八分音符 Swing",
+    "en": "Eighth-note Swing",
+    "ja": "8分音符 Swing",
+    "es": "Swing de corcheas",
+    "zh-Hant": "八分音符 Swing"
+  },
+  "八分音符 Shuffle": {
+    "zh-Hans": "八分音符 Shuffle",
+    "en": "Eighth-note Shuffle",
+    "ja": "8分音符 Shuffle",
+    "es": "Shuffle de corcheas",
+    "zh-Hant": "八分音符 Shuffle"
+  },
+  "十六分音符 Swing": {
+    "zh-Hans": "十六分音符 Swing",
+    "en": "Sixteenth-note Swing",
+    "ja": "16分音符 Swing",
+    "es": "Swing de semicorcheas",
+    "zh-Hant": "十六分音符 Swing"
+  },
+  "十六分音符 Shuffle": {
+    "zh-Hans": "十六分音符 Shuffle",
+    "en": "Sixteenth-note Shuffle",
+    "ja": "16分音符 Shuffle",
+    "es": "Shuffle de semicorcheas",
+    "zh-Hant": "十六分音符 Shuffle"
+  },
+  "自动保存…": {
+    "zh-Hans": "自动保存…",
+    "en": "Autosave…",
+    "ja": "自動保存…",
+    "es": "Guardado automático…",
+    "zh-Hant": "自動保存…"
+  },
+  "保存工程副本…": {
+    "zh-Hans": "保存工程副本…",
+    "en": "Save project copy…",
+    "ja": "プロジェクトのコピーを保存…",
+    "es": "Guardar copia del proyecto…",
+    "zh-Hant": "保存工程副本…"
+  },
+  "声库立绘": {
+    "zh-Hans": "声库立绘",
+    "en": "Voice bank artwork",
+    "ja": "ボイスバンク画像",
+    "es": "Imagen de voz",
+    "zh-Hant": "聲庫立繪"
+  },
+  "无法保存绘制设置，请检查补丁目录的写入权限。": {
+    "zh-Hans": "无法保存绘制设置，请检查补丁目录的写入权限。",
+    "en": "Could not save drawing settings. Check the patch directory's write permissions.",
+    "ja": "描画設定を保存できません。パッチフォルダの書き込み権限を確認してください。",
+    "es": "No se pudieron guardar los ajustes de dibujo. Compruebe los permisos de la carpeta del parche.",
+    "zh-Hant": "無法保存繪制設置，請檢查補丁目錄的寫入權限。"
+  },
+  "无法保存立绘设置，请检查补丁目录的写入权限。": {
+    "zh-Hans": "无法保存立绘设置，请检查补丁目录的写入权限。",
+    "en": "Could not save artwork settings. Check the patch directory's write permissions.",
+    "ja": "画像設定を保存できません。パッチフォルダの書き込み権限を確認してください。",
+    "es": "No se pudieron guardar los ajustes de imagen. Compruebe los permisos de la carpeta del parche.",
+    "zh-Hant": "無法保存立繪設置，請檢查補丁目錄的寫入權限。"
+  },
+  "请先在编辑器中选中一个声库轨道。": {
+    "zh-Hans": "请先在编辑器中选中一个声库轨道。",
+    "en": "Select a voice bank track in the editor first.",
+    "ja": "先にエディターでボイスバンクのトラックを選択してください。",
+    "es": "Seleccione primero una pista de voz en el editor.",
+    "zh-Hant": "請先在編輯器中選中一個聲庫軌道。"
+  },
+  "为当前声库选择图片、GIF 或视频": {
+    "zh-Hans": "为当前声库选择图片、GIF 或视频",
+    "en": "Choose an image, GIF or video for the current voice bank",
+    "ja": "現在のボイスバンクの画像・GIF・動画を選択",
+    "es": "Seleccione una imagen, GIF o vídeo para la voz actual",
+    "zh-Hant": "為當前聲庫選擇圖片、GIF 或視頻"
+  },
+  "无法读取所选图片或视频。": {
+    "zh-Hans": "无法读取所选图片或视频。",
+    "en": "Could not read the selected image or video.",
+    "ja": "選択した画像または動画を読み込めません。",
+    "es": "No se pudo leer la imagen o el vídeo seleccionado.",
+    "zh-Hant": "無法讀取所選圖片或視頻。"
+  },
+  "立绘大小（32–1024 像素）": {
+    "zh-Hans": "立绘大小（32–1024 像素）",
+    "en": "Artwork size (32–1024 pixels)",
+    "ja": "画像サイズ（32～1024ピクセル）",
+    "es": "Tamaño de imagen (32–1024 píxeles)",
+    "zh-Hant": "立繪大小（32–1024 像素）"
+  },
+  "立绘不透明度（0–100%）": {
+    "zh-Hans": "立绘不透明度（0–100%）",
+    "en": "Artwork opacity (0–100%)",
+    "ja": "画像の不透明度（0～100%）",
+    "es": "Opacidad de imagen (0–100%)",
+    "zh-Hant": "立繪不透明度（0–100%）"
+  },
+  "水平位置（0%=左，100%=右）": {
+    "zh-Hans": "水平位置（0%=左，100%=右）",
+    "en": "Horizontal position (0% = left, 100% = right)",
+    "ja": "水平位置（0%=左、100%=右）",
+    "es": "Posición horizontal (0% = izquierda, 100% = derecha)",
+    "zh-Hant": "水平位置（0%=左，100%=右）"
+  },
+  "垂直位置（0%=上，100%=下）": {
+    "zh-Hans": "垂直位置（0%=上，100%=下）",
+    "en": "Vertical position (0% = top, 100% = bottom)",
+    "ja": "垂直位置（0%=上、100%=下）",
+    "es": "Posición vertical (0% = arriba, 100% = abajo)",
+    "zh-Hant": "垂直位置（0%=上，100%=下）"
+  },
+  "请输入范围内的数字。": {
+    "zh-Hans": "请输入范围内的数字。",
+    "en": "Enter a number within the stated range.",
+    "ja": "指定範囲内の数値を入力してください。",
+    "es": "Introduzca un número dentro del intervalo indicado.",
+    "zh-Hant": "請輸入範圍內的數字。"
+  },
+  "钢琴窗与立绘": {
+    "zh-Hans": "钢琴窗与立绘",
+    "en": "Piano roll and artwork",
+    "ja": "ピアノロールと画像",
+    "es": "Piano roll e imagen",
+    "zh-Hant": "鋼琴窗與立繪"
+  },
+  "显示其他轨道音符": {
+    "zh-Hans": "显示其他轨道音符",
+    "en": "Show other tracks' notes",
+    "ja": "他トラックのノートを表示",
+    "es": "Mostrar notas de otras pistas",
+    "zh-Hant": "顯示其他軌道音符"
+  },
+  "忽略静音轨道": {
+    "zh-Hans": "忽略静音轨道",
+    "en": "Skip muted tracks",
+    "ja": "ミュートしたトラックを除外",
+    "es": "Omitir pistas silenciadas",
+    "zh-Hant": "忽略靜音軌道"
+  },
+  "歌词垂直居中": {
+    "zh-Hans": "歌词垂直居中",
+    "en": "Vertically center lyrics",
+    "ja": "歌詞を上下中央に表示",
+    "es": "Centrar la letra verticalmente",
+    "zh-Hant": "歌詞垂直居中"
+  },
+  "圆角音符": {
+    "zh-Hans": "圆角音符",
+    "en": "Rounded notes",
+    "ja": "ノートの角を丸くする",
+    "es": "Notas redondeadas",
+    "zh-Hant": "圓角音符"
+  },
+  "显示立绘": {
+    "zh-Hans": "显示立绘",
+    "en": "Show artwork",
+    "ja": "画像を表示",
+    "es": "Mostrar imagen",
+    "zh-Hant": "顯示立繪"
+  },
+  "为当前声库选择图片或视频…": {
+    "zh-Hans": "为当前声库选择图片或视频…",
+    "en": "Choose an image or video for this voice bank…",
+    "ja": "現在のボイスバンクの画像・動画を選択…",
+    "es": "Elegir imagen o vídeo para esta voz…",
+    "zh-Hant": "為當前聲庫選擇圖片或視頻…"
+  },
+  "大小…": {
+    "zh-Hans": "大小…",
+    "en": "Size…",
+    "ja": "サイズ…",
+    "es": "Tamaño…",
+    "zh-Hant": "大小…"
+  },
+  "不透明度…": {
+    "zh-Hans": "不透明度…",
+    "en": "Opacity…",
+    "ja": "不透明度…",
+    "es": "Opacidad…",
+    "zh-Hant": "不透明度…"
+  },
+  "水平位置…": {
+    "zh-Hans": "水平位置…",
+    "en": "Horizontal position…",
+    "ja": "水平位置…",
+    "es": "Posición horizontal…",
+    "zh-Hant": "水平位置…"
+  },
+  "垂直位置…": {
+    "zh-Hans": "垂直位置…",
+    "en": "Vertical position…",
+    "ja": "垂直位置…",
+    "es": "Posición vertical…",
+    "zh-Hant": "垂直位置…"
+  },
+  "清除当前声库立绘": {
+    "zh-Hans": "清除当前声库立绘",
+    "en": "Clear artwork for this voice bank",
+    "ja": "現在のボイスバンクの画像を解除",
+    "es": "Quitar imagen de esta voz",
+    "zh-Hant": "清除當前聲庫立繪"
+  },
+  "已请求释放闲置堆内存": {
+    "zh-Hans": "已请求释放闲置堆内存",
+    "en": "Unused heap memory release requested",
+    "ja": "未使用ヒープメモリの解放を要求しました",
+    "es": "Se ha solicitado liberar memoria no utilizada",
+    "zh-Hant": "已請求釋放閒置堆內存"
+  },
+  "分配器报告本次回收 %.1f MB。": {
+    "zh-Hans": "分配器报告本次回收 %.1f MB。",
+    "en": "The allocator reported reclaiming %.1f MB.",
+    "ja": "アロケーターは %.1f MB の回収を報告しました。",
+    "es": "El asignador informó de que se recuperaron %.1f MB.",
+    "zh-Hant": "分配器報告本次回收 %.1f MB。"
+  },
+  "波形不透明度（0–100%）": {
+    "zh-Hans": "波形不透明度（0–100%）",
+    "en": "Waveform opacity (0–100%)",
+    "ja": "波形の不透明度（0～100%）",
+    "es": "Opacidad de la forma de onda (0–100%)",
+    "zh-Hant": "波形不透明度（0–100%）"
+  },
+  "请输入 0 到 100 的数值。": {
+    "zh-Hans": "请输入 0 到 100 的数值。",
+    "en": "Enter a value from 0 to 100.",
+    "ja": "0～100の値を入力してください。",
+    "es": "Introduzca un valor de 0 a 100.",
+    "zh-Hant": "請輸入 0 到 100 的數值。"
+  },
+  "布局与波形": {
+    "zh-Hans": "布局与波形",
+    "en": "Layout and waveform",
+    "ja": "レイアウトと波形",
+    "es": "Diseño y forma de onda",
+    "zh-Hant": "佈局與波形"
+  },
+  "V6 深色工具栏与标题栏": {
+    "zh-Hans": "V6 深色工具栏与标题栏",
+    "en": "V6 dark toolbar and title bar",
+    "ja": "V6風の暗いツールバーとタイトルバー",
+    "es": "Barra de herramientas y título oscuros de V6",
+    "zh-Hant": "V6 深色工具欄與標題欄"
+  },
+  "波形不透明度…": {
+    "zh-Hans": "波形不透明度…",
+    "en": "Waveform opacity…",
+    "ja": "波形の不透明度…",
+    "es": "Opacidad de la forma de onda…",
+    "zh-Hant": "波形不透明度…"
+  },
+  "SV 样式波形": {
+    "zh-Hans": "SV 样式波形",
+    "en": "SV-style waveform",
+    "ja": "SV風の波形表示",
+    "es": "Forma de onda al estilo de SV",
+    "zh-Hant": "SV 樣式波形"
+  },
+  "合成预览刷新限制为 30 fps": {
+    "zh-Hans": "合成预览刷新限制为 30 fps",
+    "en": "Limit synthesis preview refresh to 30 fps",
+    "ja": "合成プレビューの更新を30 fpsに制限",
+    "es": "Limitar la vista previa de síntesis a 30 fps",
+    "zh-Hant": "合成預覽刷新限制為 30 fps"
+  },
+  "释放闲置堆内存": {
+    "zh-Hans": "释放闲置堆内存",
+    "en": "Release unused heap memory",
+    "ja": "未使用ヒープメモリを解放",
+    "es": "Liberar memoria no utilizada",
+    "zh-Hant": "釋放閒置堆內存"
+  },
+  "无法创建转换工作目录": {
+    "zh-Hans": "无法创建转换工作目录",
+    "en": "Could not create the conversion working directory",
+    "ja": "変換用の作業フォルダを作成できません",
+    "es": "No se pudo crear la carpeta de trabajo de conversión",
+    "zh-Hant": "無法創建轉換工作目錄"
+  },
+  "可在“查看格式选项…”中查询字段。使用 {} 采用默认值。UST 中文歌词可将 encoding 设为 UTF-8。": {
+    "zh-Hans": "可在“查看格式选项…”中查询字段。使用 {} 采用默认值。UST 中文歌词可将 encoding 设为 UTF-8。",
+    "en": "Use View format options… to inspect fields. Use {} for defaults. For Chinese lyrics in UST, set encoding to UTF-8.",
+    "ja": "「形式オプションを表示…」で項目を確認できます。既定値には {} を指定します。USTの中国語歌詞は encoding を UTF-8 に設定してください。",
+    "es": "Consulte los campos en Ver opciones del formato… Use {} para los valores predeterminados. Para letras chinas en UST, configure encoding como UTF-8.",
+    "zh-Hant": "可在“查看格式選項…”中查詢字段。使用 {} 採用默認值。UST 中文歌詞可將 encoding 設為 UTF-8。"
+  },
+  "转换": {
+    "zh-Hans": "转换",
+    "en": "Convert",
+    "ja": "変換",
+    "es": "Convertir",
+    "zh-Hant": "轉換"
+  },
+  "导入选项 JSON": {
+    "zh-Hans": "导入选项 JSON",
+    "en": "Import options JSON",
+    "ja": "インポート設定 JSON",
+    "es": "Opciones de importación JSON",
+    "zh-Hant": "導入選項 JSON"
+  },
+  "导出选项 JSON": {
+    "zh-Hans": "导出选项 JSON",
+    "en": "Export options JSON",
+    "ja": "エクスポート設定 JSON",
+    "es": "Opciones de exportación JSON",
+    "zh-Hant": "導出選項 JSON"
+  },
+  "将中文歌词转换为拼音": {
+    "zh-Hans": "将中文歌词转换为拼音",
+    "en": "Convert Chinese lyrics to pinyin",
+    "ja": "中国語の歌詞をピンインに変換",
+    "es": "Convertir la letra china a pinyin",
+    "zh-Hant": "將中文歌詞轉換為拼音"
+  },
+  "选项格式错误": {
+    "zh-Hans": "选项格式错误",
+    "en": "Invalid options",
+    "ja": "オプションの形式が不正です",
+    "es": "Opciones no válidas",
+    "zh-Hant": "選項格式錯誤"
+  },
+  "导入和导出选项都必须是 JSON 对象，例如 {}。": {
+    "zh-Hans": "导入和导出选项都必须是 JSON 对象，例如 {}。",
+    "en": "Import and export options must both be JSON objects, such as {}.",
+    "ja": "インポート設定とエクスポート設定は、{} のような JSON オブジェクトで指定してください。",
+    "es": "Las opciones de importación y exportación deben ser objetos JSON, por ejemplo {}.",
+    "zh-Hant": "導入和導出選項都必須是 JSON 對象，例如 {}。"
+  },
+  "无法创建转换日志。": {
+    "zh-Hans": "无法创建转换日志。",
+    "en": "Could not create the conversion log.",
+    "ja": "変換ログを作成できません。",
+    "es": "No se pudo crear el registro de conversión.",
+    "zh-Hant": "無法創建轉換日誌。"
+  },
+  "转换进程异常退出。": {
+    "zh-Hans": "转换进程异常退出。",
+    "en": "The conversion process exited unexpectedly.",
+    "ja": "変換処理が異常終了しました。",
+    "es": "El proceso de conversión terminó inesperadamente.",
+    "zh-Hant": "轉換進程異常退出。"
+  },
+  "转换器返回了无法读取的结果。": {
+    "zh-Hans": "转换器返回了无法读取的结果。",
+    "en": "The converter returned an unreadable result.",
+    "ja": "変換結果を読み取れません。",
+    "es": "El convertidor devolvió un resultado ilegible.",
+    "zh-Hant": "轉換器返回了無法讀取的結果。"
+  },
+  "%@\n请先运行转换目录中的 setup.command。": {
+    "zh-Hans": "%@\n请先运行转换目录中的 setup.command。",
+    "en": "%@\\nRun setup.command in the conversion directory first.",
+    "ja": "%@\\n先に変換フォルダの setup.command を実行してください。",
+    "es": "%@\\nEjecute primero setup.command en la carpeta de conversión.",
+    "zh-Hant": "%@\n請先運行轉換目錄中的 setup.command。"
+  },
+  "无法启动转换器。": {
+    "zh-Hans": "无法启动转换器。",
+    "en": "Could not start the converter.",
+    "ja": "変換ツールを起動できません。",
+    "es": "No se pudo iniciar el convertidor.",
+    "zh-Hant": "無法啓動轉換器。"
+  },
+  "转换已取消。": {
+    "zh-Hans": "转换已取消。",
+    "en": "Conversion cancelled.",
+    "ja": "変換をキャンセルしました。",
+    "es": "Conversión cancelada.",
+    "zh-Hant": "轉換已取消。"
+  },
+  "转换提示": {
+    "zh-Hans": "转换提示",
+    "en": "Conversion notice",
+    "ja": "変換について",
+    "es": "Aviso de conversión",
+    "zh-Hant": "轉換提示"
+  },
+  "请先打开工程": {
+    "zh-Hans": "请先打开工程",
+    "en": "Open a project first",
+    "ja": "先にプロジェクトを開いてください",
+    "es": "Abra primero un proyecto",
+    "zh-Hant": "請先打開工程"
+  },
+  "导出需要一个打开的 VOCALOID7 工程。": {
+    "zh-Hans": "导出需要一个打开的 VOCALOID7 工程。",
+    "en": "Export requires an open VOCALOID7 project.",
+    "ja": "エクスポートするには VOCALOID7 のプロジェクトを開いてください。",
+    "es": "Para exportar es necesario abrir un proyecto de VOCALOID7.",
+    "zh-Hant": "導出需要一個打開的 VOCALOID7 工程。"
+  },
+  "导出其他工程格式": {
+    "zh-Hans": "导出其他工程格式",
+    "en": "Export another project format",
+    "ja": "別形式のプロジェクトにエクスポート",
+    "es": "Exportar a otro formato de proyecto",
+    "zh-Hant": "導出其他工程格式"
+  },
+  "通过文件扩展名选择格式，例如 svp、ustx、vsqx、vpr、musicxml、mxl、lrc、srt、ass。": {
+    "zh-Hans": "通过文件扩展名选择格式，例如 svp、ustx、vsqx、vpr、musicxml、mxl、lrc、srt、ass。",
+    "en": "Choose the format by its file extension, for example svp, ustx, vsqx, vpr, musicxml, mxl, lrc, srt or ass.",
+    "ja": "svp、ustx、vsqx、vpr、musicxml、mxl、lrc、srt、ass などの拡張子で形式を指定します。",
+    "es": "Elija el formato mediante la extensión del archivo, por ejemplo svp, ustx, vsqx, vpr, musicxml, mxl, lrc, srt o ass.",
+    "zh-Hant": "通過文件擴展名選擇格式，例如 svp、ustx、vsqx、vpr、musicxml、mxl、lrc、srt、ass。"
+  },
+  "请选择其他文件名": {
+    "zh-Hans": "请选择其他文件名",
+    "en": "Choose a different file name",
+    "ja": "別のファイル名を指定してください",
+    "es": "Elija otro nombre de archivo",
+    "zh-Hant": "請選擇其他文件名"
+  },
+  "转换结果需要保存到当前工程之外的文件。": {
+    "zh-Hans": "转换结果需要保存到当前工程之外的文件。",
+    "en": "Save the converted result to a file other than the current project.",
+    "ja": "変換結果は現在のプロジェクトとは別のファイルに保存してください。",
+    "es": "Guarde el resultado convertido en un archivo distinto del proyecto actual.",
+    "zh-Hant": "轉換結果需要保存到當前工程之外的文件。"
+  },
+  "工程序列化失败。": {
+    "zh-Hans": "工程序列化失败。",
+    "en": "Could not serialize the project.",
+    "ja": "プロジェクトをシリアライズできません。",
+    "es": "No se pudo serializar el proyecto.",
+    "zh-Hant": "工程序列化失敗。"
+  },
+  "无法生成工程副本": {
+    "zh-Hans": "无法生成工程副本",
+    "en": "Could not generate the project copy",
+    "ja": "プロジェクトのコピーを生成できません",
+    "es": "No se pudo generar la copia del proyecto",
+    "zh-Hant": "無法生成工程副本"
+  },
+  "正在转换工程…": {
+    "zh-Hans": "正在转换工程…",
+    "en": "Converting project…",
+    "ja": "プロジェクトを変換中…",
+    "es": "Convirtiendo proyecto…",
+    "zh-Hant": "正在轉換工程…"
+  },
+  "导出未完成": {
+    "zh-Hans": "导出未完成",
+    "en": "Export incomplete",
+    "ja": "エクスポート未完了",
+    "es": "Exportación incompleta",
+    "zh-Hant": "導出未完成"
+  },
+  "\n\n配套音频保存在以下目录，请与工程一起保留。\n%@": {
+    "zh-Hans": "\n\n配套音频保存在以下目录，请与工程一起保留。\n%@",
+    "en": "\\n\\nCompanion audio is saved in the directory below. Keep it with the project.\\n%@",
+    "ja": "\\n\\n付属の音声は次のフォルダに保存されます。プロジェクトと一緒に保管してください。\\n%@",
+    "es": "\\n\\nEl audio asociado se ha guardado en la carpeta siguiente. Consérvelo junto al proyecto.\\n%@",
+    "zh-Hant": "\n\n配套音頻保存在以下目錄，請與工程一起保留。\n%@"
+  },
+  "导出完成": {
+    "zh-Hans": "导出完成",
+    "en": "Export complete",
+    "ja": "エクスポート完了",
+    "es": "Exportación completada",
+    "zh-Hant": "導出完成"
+  },
+  "编辑器无法导入工程": {
+    "zh-Hans": "编辑器无法导入工程",
+    "en": "The editor could not import the project",
+    "ja": "エディターでプロジェクトを読み込めません",
+    "es": "El editor no pudo importar el proyecto",
+    "zh-Hant": "編輯器無法導入工程"
+  },
+  "编辑器未返回工程对象。": {
+    "zh-Hans": "编辑器未返回工程对象。",
+    "en": "The editor did not return a project object.",
+    "ja": "エディターからプロジェクトオブジェクトが返されませんでした。",
+    "es": "El editor no devolvió un objeto de proyecto.",
+    "zh-Hant": "編輯器未返回工程對象。"
+  },
+  "导入其他工程格式": {
+    "zh-Hans": "导入其他工程格式",
+    "en": "Import another project format",
+    "ja": "別形式のプロジェクトをインポート",
+    "es": "Importar otro formato de proyecto",
+    "zh-Hant": "導入其他工程格式"
+  },
+  "支持 USTX、UST、SVP、S5P、VSQ、VSQX、VPR、VPRX、CCS、TSSLN、ACEP、VVPROJ、PPSF、DV、TLPX、TLP、SVIP、DS、AISP、Y77、VOG、MusicXML、MXL、OpenSVIP JSON、UFData 和 MIDI。": {
+    "zh-Hans": "支持 USTX、UST、SVP、S5P、VSQ、VSQX、VPR、VPRX、CCS、TSSLN、ACEP、VVPROJ、PPSF、DV、TLPX、TLP、SVIP、DS、AISP、Y77、VOG、MusicXML、MXL、OpenSVIP JSON、UFData 和 MIDI。",
+    "en": "Supports USTX, UST, SVP, S5P, VSQ, VSQX, VPR, VPRX, CCS, TSSLN, ACEP, VVPROJ, PPSF, DV, TLPX, TLP, SVIP, DS, AISP, Y77, VOG, MusicXML, MXL, OpenSVIP JSON, UFData and MIDI.",
+    "ja": "USTX、UST、SVP、S5P、VSQ、VSQX、VPR、VPRX、CCS、TSSLN、ACEP、VVPROJ、PPSF、DV、TLPX、TLP、SVIP、DS、AISP、Y77、VOG、MusicXML、MXL、OpenSVIP JSON、UFData、MIDI に対応します。",
+    "es": "Admite USTX, UST, SVP, S5P, VSQ, VSQX, VPR, VPRX, CCS, TSSLN, ACEP, VVPROJ, PPSF, DV, TLPX, TLP, SVIP, DS, AISP, Y77, VOG, MusicXML, MXL, OpenSVIP JSON, UFData y MIDI.",
+    "zh-Hant": "支持 USTX、UST、SVP、S5P、VSQ、VSQX、VPR、VPRX、CCS、TSSLN、ACEP、VVPROJ、PPSF、DV、TLPX、TLP、SVIP、DS、AISP、Y77、VOG、MusicXML、MXL、OpenSVIP JSON、UFData 和 MIDI。"
+  },
+  "无法创建工程副本": {
+    "zh-Hans": "无法创建工程副本",
+    "en": "Could not create the project copy",
+    "ja": "プロジェクトのコピーを作成できません",
+    "es": "No se pudo crear la copia del proyecto",
+    "zh-Hant": "無法創建工程副本"
+  },
+  "正在转换并导入工程…": {
+    "zh-Hans": "正在转换并导入工程…",
+    "en": "Converting and importing project…",
+    "ja": "プロジェクトを変換してインポート中…",
+    "es": "Convirtiendo e importando proyecto…",
+    "zh-Hant": "正在轉換並導入工程…"
+  },
+  "导入未完成": {
+    "zh-Hans": "导入未完成",
+    "en": "Import incomplete",
+    "ja": "インポート未完了",
+    "es": "Importación incompleta",
+    "zh-Hant": "導入未完成"
+  },
+  "查看格式选项": {
+    "zh-Hans": "查看格式选项",
+    "en": "View format options",
+    "ja": "形式オプションを表示",
+    "es": "Ver opciones del formato",
+    "zh-Hant": "查看格式選項"
+  },
+  "输入格式扩展名，例如 svp、vpr、ust、lrc。": {
+    "zh-Hans": "输入格式扩展名，例如 svp、vpr、ust、lrc。",
+    "en": "Enter a format extension, for example svp, vpr, ust or lrc.",
+    "ja": "svp、vpr、ust、lrc などの形式の拡張子を入力してください。",
+    "es": "Introduzca una extensión de formato, por ejemplo svp, vpr, ust o lrc.",
+    "zh-Hant": "輸入格式擴展名，例如 svp、vpr、ust、lrc。"
+  },
+  "查看": {
+    "zh-Hans": "查看",
+    "en": "View",
+    "ja": "表示",
+    "es": "Ver",
+    "zh-Hant": "查看"
+  },
+  "正在读取格式选项…": {
+    "zh-Hans": "正在读取格式选项…",
+    "en": "Loading format options…",
+    "ja": "形式オプションを読み込み中…",
+    "es": "Leyendo opciones del formato…",
+    "zh-Hant": "正在讀取格式選項…"
+  },
+  "无法读取格式选项": {
+    "zh-Hans": "无法读取格式选项",
+    "en": "Could not load format options",
+    "ja": "形式オプションを読み込めません",
+    "es": "No se pudieron leer las opciones del formato",
+    "zh-Hant": "無法讀取格式選項"
+  },
+  " 格式选项": {
+    "zh-Hans": " 格式选项",
+    "en": " format options",
+    "ja": " の形式オプション",
+    "es": " opciones del formato",
+    "zh-Hant": " 格式選項"
+  },
+  "input 为导入选项，output 为导出选项。可复制字段和默认值到转换对话框的 JSON 中。": {
+    "zh-Hans": "input 为导入选项，output 为导出选项。可复制字段和默认值到转换对话框的 JSON 中。",
+    "en": "input contains import options and output contains export options. Copy fields and defaults into the conversion dialog's JSON.",
+    "ja": "input はインポート設定、output はエクスポート設定です。項目と既定値を変換ダイアログの JSON にコピーできます。",
+    "es": "input contiene opciones de importación y output opciones de exportación. Copie los campos y valores predeterminados al JSON del diálogo de conversión.",
+    "zh-Hant": "input 為導入選項，output 為導出選項。可複製字段和默認值到轉換對話框的 JSON 中。"
+  },
+  "工程格式转换": {
+    "zh-Hans": "工程格式转换",
+    "en": "Project format conversion",
+    "ja": "プロジェクト形式変換",
+    "es": "Conversión de formato de proyecto",
+    "zh-Hant": "工程格式轉換"
+  },
+  "导入其他工程格式…": {
+    "zh-Hans": "导入其他工程格式…",
+    "en": "Import another project format…",
+    "ja": "別形式のプロジェクトをインポート…",
+    "es": "Importar otro formato de proyecto…",
+    "zh-Hant": "導入其他工程格式…"
+  },
+  "导出其他工程格式…": {
+    "zh-Hans": "导出其他工程格式…",
+    "en": "Export another project format…",
+    "ja": "別形式のプロジェクトにエクスポート…",
+    "es": "Exportar a otro formato de proyecto…",
+    "zh-Hant": "導出其他工程格式…"
+  },
+  "查看格式选项…": {
+    "zh-Hans": "查看格式选项…",
+    "en": "View format options…",
+    "ja": "形式オプションを表示…",
+    "es": "Ver opciones del formato…",
+    "zh-Hant": "查看格式選項…"
+  },
+  "播放工程后显示编辑器输出频谱": {
+    "zh-Hans": "播放工程后显示编辑器输出频谱",
+    "en": "Play the project to display the editor output spectrum",
+    "ja": "プロジェクトを再生すると出力スペクトラムが表示されます",
+    "es": "Reproduzca el proyecto para mostrar el espectro de salida del editor",
+    "zh-Hant": "播放工程後顯示編輯器輸出頻譜"
+  },
+  "VOCALOID Patcher · 频谱": {
+    "zh-Hans": "VOCALOID Patcher · 频谱",
+    "en": "VOCALOID Patcher · Spectrum",
+    "ja": "VOCALOID Patcher · スペクトラム",
+    "es": "VOCALOID Patcher · Espectro",
+    "zh-Hant": "VOCALOID Patcher · 頻譜"
+  },
+  "实时输出频谱": {
+    "zh-Hans": "实时输出频谱",
+    "en": "Live output spectrum",
+    "ja": "リアルタイム出力スペクトラム",
+    "es": "Espectro de salida en tiempo real",
+    "zh-Hant": "實時輸出頻譜"
+  },
+  "繁體中文": {
+    "zh-Hans": "繁體中文",
+    "en": "繁體中文",
+    "ja": "繁體中文",
+    "es": "繁體中文",
+    "zh-Hant": "繁體中文"
+  },
+  "日本語": {
+    "zh-Hans": "日本語",
+    "en": "日本語",
+    "ja": "日本語",
+    "es": "日本語",
+    "zh-Hant": "日本語"
+  }
+}
