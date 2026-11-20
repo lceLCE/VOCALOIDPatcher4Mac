@@ -3,7 +3,7 @@
 This optional installation makes the existing `/Applications/VOCALOID7 Editor.app` icon load the patcher. Daily use needs neither Terminal nor a separate app launcher. Source builders run the following once after build/setup/check, with the editor closed:
 
 ```sh
-python3 install.py install
+conversion/.venv/bin/python install.py install
 ```
 
 A different app copy can be selected with `--app '/path/to/VOCALOID7 Editor.app'`. The exact executable digest must match Compatibility.h. The installer refuses unsupported/modified targets and a running editor; it never stops a process or silently discards unsaved work.
@@ -23,7 +23,7 @@ No editor activation code, system-wide DYLD environment, Gatekeeper or SIP setti
 Quit the editor, then run:
 
 ```sh
-python3 install.py restore
+conversion/.venv/bin/python install.py restore
 ```
 
 Alternatively, using the self-contained recovery files left by installation:

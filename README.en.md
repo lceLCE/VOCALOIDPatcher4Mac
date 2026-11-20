@@ -17,7 +17,7 @@ cd VOCALOIDPatcher4Mac
 For normal launches from the existing editor icon, quit the editor and install once:
 
 ```sh
-python3 install.py install
+conversion/.venv/bin/python install.py install
 ```
 
 Then open `/Applications/VOCALOID7 Editor.app` normally. No Terminal or separate launcher is needed for daily use. See [installation and restore](docs/INSTALLING.md).

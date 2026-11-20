@@ -21,10 +21,10 @@ cd VOCALOIDPatcher4Mac
 要让原来的 V7 图标默认加载汉化，退出编辑器后执行一次安装：
 
 ```sh
-python3 install.py install
+conversion/.venv/bin/python install.py install
 ```
 
-安装后日常直接打开 `/Applications/VOCALOID7 Editor.app`，不用终端或额外启动器。安装会备份原应用，并保留其完整原生包；还原用 `python3 install.py restore`。只支持当前用户，更新编辑器后需要重新验证、安装。
+安装后日常直接打开 `/Applications/VOCALOID7 Editor.app`，不用终端或额外启动器。安装会备份原应用，并保留其完整原生包；还原用 `conversion/.venv/bin/python install.py restore`。只支持当前用户，更新编辑器后需要重新验证、安装。
 
 默认编辑器位置为 `/Applications/VOCALOID7 Editor.app`。也可在构建后双击生成的 `VOCALOID7 Patcher.app`。保持生成的 app、动态库、localization/ 和 conversion/ 在完整仓库目录中。启动前先退出已有编辑器；普通方式启动原应用可恢复原生界面。补丁不改写原应用文件。
 
