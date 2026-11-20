@@ -1,5 +1,7 @@
 # Direct app launch / 原图标直接启动
 
+[完整中文使用说明](USER-GUIDE.md) · [Full English user guide](USER-GUIDE.en.md)
+
 This optional installation makes the existing `/Applications/VOCALOID7 Editor.app` icon load the patcher. Daily use needs neither Terminal nor a separate app launcher. Source builders run the following once after build/setup/check, with the editor closed:
 
 ```sh

@@ -1,5 +1,7 @@
 # macOS format bridge
 
+Editor menu workflows: [中文](../docs/USER-GUIDE.md#工程格式转换) / [English](../docs/USER-GUIDE.en.md#project-conversion). The command examples below are optional developer tools.
+
 Requires Python 3.12 and the pinned dependencies in requirements.txt. Run setup.command to create a local environment. No global Python package installation is required.
 
 ```

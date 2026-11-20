@@ -1,5 +1,7 @@
 # Building from source / 源码构建
 
+For everyday operations, see the [complete Chinese guide](USER-GUIDE.md) or [English guide](USER-GUIDE.en.md).
+
 ## Requirements
 
 - Apple Silicon Mac running macOS 15 or newer.
@@ -17,7 +19,7 @@ From the repository root:
 ./check.command
 ```
 
-The native build uses Apple clang, ARC, `-arch arm64`, deployment target macOS 15.0 and `-Wall -Wextra -Werror`. It links only system frameworks. Outputs are `VOCALOIDPatcher.dylib` and `VOCALOID7 Patcher.app`. They are ignored by Git. Conversion dependencies are restored from the exact versions in `conversion/requirements.txt`; no Python packages are installed globally. Tests create `.check-build/` and `conversion/validation.json` locally.
+The native build uses Apple clang, ARC, `-arch arm64`, deployment target macOS 15.0 and `-Wall -Wextra -Werror`. It links only system frameworks. Outputs are `VOCALOIDPatcher.dylib`, `VOCALOID7 Patcher.app` and `VOCALOIDPatcherBootstrap`. They are ignored by Git. Conversion dependencies are restored from the exact versions in `conversion/requirements.txt`; no Python packages are installed globally. Tests create `.check-build/` and `conversion/validation.json` locally.
 
 The checks cover native menu translation, rounding/harmony, stereo capture, drawing settings and visible ranges, cache invalidation, waveform grouping, preview throttling, import defaults, dyld executable selection and representative format conversions. They do not launch the proprietary editor and cannot prove a new editor ABI. Follow [ADAPTING](ADAPTING.md) for runtime verification.
 
@@ -40,10 +42,10 @@ The first launch sets up the converter if its local Python is missing. For predi
 ## Translation regeneration
 
 ```sh
-python3 localization/build_maps.py --app '/Applications/VOCALOID7 Editor.app'
+python3 localization/build_maps.py --app '/path/to/untouched/VOCALOID7 Editor.app'
 ```
 
-This reads the locally installed editor's resources and the pinned translations under upstream/. It writes localization/maps/ only; it never modifies the app. Review differences and placeholder coverage before committing. Prebuilt maps remain usable without regeneration for the verified target.
+For a directly installed editor, select its untouched app under `Contents/Resources/Native/VOCALOID7 Editor.app`, not the outer bootstrap bundle. This reads the selected editor's resources and the pinned translations under upstream/. It writes localization/maps/ only; it never modifies the app. Review differences and placeholder coverage before committing. Prebuilt maps remain usable without regeneration for the verified target.
 
 ## Reproducibility boundaries
 

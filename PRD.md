@@ -19,3 +19,7 @@ Prepare source checkout; centralize target constants; document build and adaptat
 ## Direct launch installation (2026-11-20)
 
 Clicking the existing VOCALOID7 app icon, or opening its projects, must load the Chinese patch without a separate launcher or terminal. Preserve the native executable bytes and app identity, use a checked native bootstrap at the existing application entry point with the untouched native app preserved inside, install mutable payload in the current user's Application Support directory, and retain a complete restorable original bundle. Do not change licensing code, Gatekeeper, SIP or system-wide DYLD settings. First validate on a separate app copy, then test normal opening, quit/reopen, and a synthetic project. The source digest gates remain in force.
+
+## Complete usage documentation (2026-11-20)
+
+Update the published project with a source-verified Chinese user manual and an English counterpart. Cover prerequisites and exact target identity, first build/install, daily original-icon use, every shipped menu/action and parameter, conversion formats/options, data/backup locations, update/reinstall/restore, standalone mode, troubleshooting, verification scope and contribution guidance. Make direct installation the recommended normal-use route and remove obsolete claims that opening an installed original icon bypasses the patch. Validate local links and representative read-only commands; do not reinstall or change the running editor for a documentation update. Commit and push, then verify remote main matches local HEAD.
