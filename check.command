@@ -18,3 +18,5 @@ xcrun clang -Wall -Wextra -Werror check_dyld.c -o "$check_build/dyld"
 "$check_build/import-options"
 DYLD_INSERT_LIBRARIES="$PWD/VOCALOIDPatcher.dylib" "$check_build/dyld"
 conversion/.venv/bin/python conversion/check.py
+
+conversion/.venv/bin/python check_install.py

@@ -15,3 +15,7 @@ Publish source only; do not bundle VOCALOID, voice banks, local Python environme
 
 ## Tasks
 Prepare source checkout; centralize target constants; document build and adaptation; validate from a clean source tree; inspect the staged content; commit and push; verify remote files and license.
+
+## Direct launch installation (2026-11-20)
+
+Clicking the existing VOCALOID7 app icon, or opening its projects, must load the Chinese patch without a separate launcher or terminal. Preserve the native executable bytes and app identity, use a checked native bootstrap at the existing application entry point with the untouched native app preserved inside, install mutable payload in the current user's Application Support directory, and retain a complete restorable original bundle. Do not change licensing code, Gatekeeper, SIP or system-wide DYLD settings. First validate on a separate app copy, then test normal opening, quit/reopen, and a synthetic project. The source digest gates remain in force.

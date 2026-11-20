@@ -12,13 +12,23 @@ static int VPLaunchFailure(NSString *message) {
   return 1;
 }
 
-int main(void) {
+int main(int argc, char *argv[]) {
+  (void)argc;
   @autoreleasepool {
+#if defined(VP_EMBEDDED)
+    NSString *app = NSBundle.mainBundle.bundlePath;
+    NSString *support = [NSFileManager.defaultManager URLsForDirectory:NSApplicationSupportDirectory
+                                                           inDomains:NSUserDomainMask].firstObject.path;
+    NSString *root = [support stringByAppendingPathComponent:@"VOCALOIDPatcher/VOCALOID7"];
+#else
     NSString *root =
         NSBundle.mainBundle.bundleURL.URLByDeletingLastPathComponent.path;
     const char *configured = getenv("VOCALOID_EDITOR_APP");
     NSString *app = configured ? [NSString stringWithUTF8String:configured]
                                : @"/Applications/VOCALOID7 Editor.app";
+#endif
+    NSString *nativeApp = [app stringByAppendingPathComponent:@"Contents/Resources/Native/VOCALOID7 Editor.app"];
+    if ([NSFileManager.defaultManager fileExistsAtPath:nativeApp]) app = nativeApp;
     NSString *executable =
         [app stringByAppendingPathComponent:@"Contents/MacOS/VOCALOID7 Editor"];
     NSData *bytes = [NSData dataWithContentsOfFile:executable
@@ -56,8 +66,8 @@ int main(void) {
     unsetenv("VOCALOID_PATCHER_TEST_PROJECT");
     setenv("VOCALOID_PATCHER_ROOT", root.fileSystemRepresentation, 1);
     setenv("DYLD_INSERT_LIBRARIES", library.fileSystemRepresentation, 1);
-    execl(executable.fileSystemRepresentation, "VOCALOID7 Editor",
-          (char *)NULL);
+    argv[0] = (char *)executable.fileSystemRepresentation;
+    execv(executable.fileSystemRepresentation, argv);
     return VPLaunchFailure(@"VOCALOID7 Editor 启动失败。");
   }
 }

@@ -23,6 +23,8 @@ The checks cover native menu translation, rounding/harmony, stereo capture, draw
 
 ## Run
 
+For direct launches from the existing editor icon, use the one-time [installation](INSTALLING.md) after build/setup/check. The steps below describe optional standalone mode.
+
 Quit the running editor, then use `./启动.command` or double-click the generated app. `启动.command` delegates to the same compiled launcher, so both use `Compatibility.h` rather than separate version/hash checks.
 
 For a separate test copy or nonstandard installation:
@@ -45,4 +47,4 @@ This reads the locally installed editor's resources and the pinned translations 
 
 ## Reproducibility boundaries
 
-Exact converter versions are pinned. The native compiler/SDK are supplied by the developer, so byte-identical native binaries are not promised. Intel requires a separately derived ABI and loading implementation; changing `-arch` alone is insufficient. The launcher's digest is over the complete installed executable, including its universal container, not a thinned slice.
+Exact converter versions are pinned. The native compiler/SDK are supplied by the developer, so byte-identical native binaries are not promised. Intel requires a separately derived ABI and loading implementation; changing `-arch` alone is insufficient. The launcher's digest is over the complete native editor executable, including its universal container, not a thinned slice. In direct-install mode this is the executable in the nested, unchanged native app.

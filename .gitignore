@@ -2,6 +2,7 @@
 *.dylib
 *.o
 *.app/
+/VOCALOIDPatcherBootstrap
 .check-build/
 # Local converter environment and Python cache
 .venv/
@@ -26,3 +27,5 @@ native-options.json
 # Local analysis and generated test report
 /adaptation-work/
 /conversion/validation.json
+
+/installation-report.json

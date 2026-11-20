@@ -42,7 +42,7 @@ static id VPNativeObjectIvar(id object, const char *name) {
 }
 
 static BOOL VPNativeSupported(void) {
-    NSData *bytes = [NSData dataWithContentsOfFile:NSBundle.mainBundle.executablePath
+    NSData *bytes = [NSData dataWithContentsOfFile:VPActualExecutablePath()
                                          options:NSDataReadingMappedIfSafe error:nil];
     if (!bytes || bytes.length > UINT_MAX) return NO;
     unsigned char digest[CC_SHA256_DIGEST_LENGTH];

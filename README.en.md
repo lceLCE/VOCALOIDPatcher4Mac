@@ -12,10 +12,17 @@ cd VOCALOIDPatcher4Mac
 ./build.command
 ./conversion/setup.command
 ./check.command
-./启动.command
 ```
 
-The default editor path is `/Applications/VOCALOID7 Editor.app`. Keep the generated launcher app and dylib beside localization/ and conversion/. Quit any existing editor before launching. The original editor files are not modified; launch the editor normally to run without the patcher.
+For normal launches from the existing editor icon, quit the editor and install once:
+
+```sh
+python3 install.py install
+```
+
+Then open `/Applications/VOCALOID7 Editor.app` normally. No Terminal or separate launcher is needed for daily use. See [installation and restore](docs/INSTALLING.md).
+
+The default editor path is `/Applications/VOCALOID7 Editor.app`. Keep the generated launcher app and dylib beside localization/ and conversion/. Quit any existing editor before launching. Standalone mode (`./启动.command`) leaves the editor untouched. Installed mode backs up and replaces the outer bundle while retaining the complete original editor internally; restore before reverting or installing an editor update.
 
 Features include five-language UI/menu translation, piano-roll overlays, custom still/GIF/video artwork, lyric/quantization/harmony/swing jobs, project/subtitle conversion, pinyin, timed VPRX save, output spectrum and waveform options. AU/VST hosts, Intel, Inspector relocation and several Windows performance patches remain unsupported. Foreign-format conversion does not establish lossless V7 synthesis controls.
 

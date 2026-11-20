@@ -44,7 +44,7 @@ static id VPArtObjectIvar(id object, const char *name) {
 BOOL VPSupportedEditor(void) {
     NSString *version = [NSBundle.mainBundle objectForInfoDictionaryKey:@"CFBundleShortVersionString"];
     if (![version isEqualToString:VP_EDITOR_VERSION]) return NO;
-    NSData *bytes = [NSData dataWithContentsOfFile:NSBundle.mainBundle.executablePath
+    NSData *bytes = [NSData dataWithContentsOfFile:VPActualExecutablePath()
                                          options:NSDataReadingMappedIfSafe error:nil];
     if (!bytes || bytes.length > UINT_MAX) return NO;
     unsigned char digest[CC_SHA256_DIGEST_LENGTH];

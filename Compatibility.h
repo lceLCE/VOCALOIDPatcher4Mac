@@ -1,6 +1,18 @@
 // SPDX-License-Identifier: GPL-3.0-only
 #pragma once
 #include <stdint.h>
+#import <Foundation/Foundation.h>
+#include <limits.h>
+#include <mach-o/dyld.h>
+
+// A bundle's CFBundleExecutable can name the installed bootstrap while this
+// process is the unchanged editor. Always validate the image actually running.
+static inline NSString *VPActualExecutablePath(void) {
+    char path[PATH_MAX];
+    uint32_t size = sizeof(path);
+    if (_NSGetExecutablePath(path, &size) != 0) return nil;
+    return [NSString stringWithUTF8String:path];
+}
 
 // This is one verified arm64 editor build, not a bypass switch.
 // Re-derive every ABI dependency and run the checklist in docs/ADAPTING.md

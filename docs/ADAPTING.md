@@ -4,7 +4,7 @@ This guide describes the integration boundaries that must be established on your
 
 ## 1. Identify and isolate the target
 
-Use a separate copy and synthetic projects, with another copy of those projects before saving. Record the editor marketing version, executable SHA-256, CPU slices, macOS version and toolchain. Do not commit editor binaries, voice banks, personal projects or raw resource/analysis dumps.
+Use a separate copy and synthetic projects, with another copy of those projects before saving. If direct installation is already present, inspect the untouched editor under Contents/Resources/Native/VOCALOID7 Editor.app, or restore before deriving a new target; the outer executable is the bootstrap, not the native editor. Record the editor marketing version, executable SHA-256, CPU slices, macOS version and toolchain. Do not commit editor binaries, voice banks, personal projects or raw resource/analysis dumps.
 
 ```sh
 mkdir -p adaptation-work

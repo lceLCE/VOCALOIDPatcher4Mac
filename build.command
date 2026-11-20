@@ -10,3 +10,5 @@ mkdir -p 'VOCALOID7 Patcher.app/Contents/MacOS'
 xcrun clang -arch arm64 -mmacosx-version-min=15.0 -fobjc-arc -Wall -Wextra -Werror \
   Launcher.m -framework AppKit -o 'VOCALOID7 Patcher.app/Contents/MacOS/Launcher'
 cp Launcher-Info.plist 'VOCALOID7 Patcher.app/Contents/Info.plist'
+xcrun clang -arch arm64 -mmacosx-version-min=15.0 -fobjc-arc -Wall -Wextra -Werror \
+  -DVP_EMBEDDED Launcher.m -framework AppKit -o VOCALOIDPatcherBootstrap
